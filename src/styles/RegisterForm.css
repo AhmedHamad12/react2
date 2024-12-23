@@ -1,0 +1,54 @@
+.register-form {
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  
+  .register-form h2 {
+    color: #00bfa5;
+  }
+  
+  .form-control {
+    border-radius: 10px;
+  }
+  
+  .btn-success {
+    background-color: #00bfa5;
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: #009e87;
+  }
+  .popup {
+    z-index: 999999;
+  }
+  input{
+    box-shadow: 1px 5px 4px -4px #0000004f;
+  }
+  .contianer{
+    display: flex;
+  }
+  .form-section {
+    padding: 20px;
+  }
+  
+  .image-section {
+    padding: 20px; 
+  }
+
+  .custom-modal .modal-dialog {
+    max-width: 1000px; /
+  }
+  
+  .custom-modal .modal-body {
+    padding: 30px; 
+  }
+  
+  .form-section {
+    padding: 20px;
+  }
+
+  .image-section {
+    padding: 20px;
+  }
+  

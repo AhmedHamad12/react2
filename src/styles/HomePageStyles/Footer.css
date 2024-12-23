@@ -1,0 +1,39 @@
+
+.footer {
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .footer .logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+    font-family: 'Italianno', cursive;
+    margin-bottom: -20px;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .socials {
+    display: flex ;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    color: #333;
+    transition: transform 0.2s ease, color 0.2s ease;
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    color: #0077ff;
+  }

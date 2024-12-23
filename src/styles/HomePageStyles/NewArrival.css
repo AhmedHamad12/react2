@@ -1,0 +1,74 @@
+.new-arrivals {
+  text-align: center;
+  background-color: #D9D9D924;
+}
+
+.new-arrivals h2 {
+  font-size: 30px;
+  padding-right: 200px;
+  padding-top: 70px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.images-container {
+  position: relative;
+  width: 80%;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 400px; 
+}
+
+.image-item {
+  position: absolute;
+  transition: transform 0.3s ease-in-out;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+.img1 {
+  top: 8px;
+  left: -150px;
+  width: 250px;
+  height: 250px;
+}
+
+.img2 {
+  top: 125px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+}
+
+.img3 {
+  top: 150px;
+  left: 140px;
+  width: 160px;
+  height: 220px;
+}
+
+.img4 {
+  top: 130px;
+  right: 200px;
+  width: 240px;
+  height: 240px;
+}
+
+.img5 {
+  top: 10px;
+  right: 50px;
+  width: 240px;
+  height: 240px;
+}
+
+.image-item:hover {
+  transform: scale(1.05);
+}
